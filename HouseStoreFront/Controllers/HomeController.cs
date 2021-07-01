@@ -22,6 +22,28 @@ namespace HouseStoreFront.Controllers
             return View(h);
         }
 
+     
+        public IActionResult AddHouse()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddHouse(House h)
+        {
+            db.Houses.Add(h);
+            db.SaveChanges();
+
+
+            return RedirectToAction("Index", "House");
+        }
+
+        public IActionResult Update(int id)
+        {
+            House h = db.Houses.Find(id);
+            return View(h);
+        }
+
         public IActionResult Buy(int id)
         {
             House h = db.Houses.Find(id);
