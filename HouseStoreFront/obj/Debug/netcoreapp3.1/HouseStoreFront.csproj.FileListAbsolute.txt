@@ -80,3 +80,5 @@ C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netco
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Home\Buy.cshtml.g.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Index.cshtml.g.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddHouse.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Update.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Delete.cshtml.g.cs

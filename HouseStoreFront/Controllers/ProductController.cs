@@ -39,5 +39,27 @@ namespace HouseStoreFront.Controllers
             return View(h);
         }
 
+        [HttpPost]
+        public IActionResult Update(House h)
+        {
+            db.Houses.Update(h);
+            db.SaveChanges();
+            return RedirectToAction("Index", "House");
+        }
+
+        public IActionResult Delete(int Id)
+        {
+            House h = db.Houses.Find(Id);
+            return View(h);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(House h)
+        {
+            // Movie m = db.Movies.Find(Id);
+            db.Houses.Remove(h);
+            db.SaveChanges();
+            return RedirectToAction("Index", "House");
+        }
     }
 }
