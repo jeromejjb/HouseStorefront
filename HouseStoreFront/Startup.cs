@@ -58,8 +58,11 @@ namespace HouseStoreFront
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Storefront}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(name: "default",
+                pattern: "{controller=Product}/{action=Index}/{id?}");
             });
+
         }
     }
 }

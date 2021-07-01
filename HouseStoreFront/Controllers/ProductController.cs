@@ -14,7 +14,7 @@ namespace HouseStoreFront.Controllers
 
     public IActionResult Index()
         {
-            List<House> houses = db.Houses.ToList();
+            List<House> houses = db.Houses.Where(x => x.Quantity ==1).ToList();
             return View(houses);
         }
 
@@ -30,7 +30,7 @@ namespace HouseStoreFront.Controllers
             db.SaveChanges();
 
 
-            return RedirectToAction("Index", "House");
+            return RedirectToAction("Storefront", "Product");
         }
 
         public IActionResult Update(int id)
@@ -44,7 +44,7 @@ namespace HouseStoreFront.Controllers
         {
             db.Houses.Update(h);
             db.SaveChanges();
-            return RedirectToAction("Index", "House");
+            return RedirectToAction("Storefront", "Product");
         }
 
         public IActionResult Delete(int Id)
@@ -56,10 +56,10 @@ namespace HouseStoreFront.Controllers
         [HttpPost]
         public IActionResult Delete(House h)
         {
-            // Movie m = db.Movies.Find(Id);
+           
             db.Houses.Remove(h);
             db.SaveChanges();
-            return RedirectToAction("Index", "House");
+            return RedirectToAction("Storefront", "Product");
         }
     }
 }

@@ -50,7 +50,6 @@ C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\bin\Debug\netco
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.csproj.AssemblyReference.cache
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.AssemblyInfoInputs.cache
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.AssemblyInfo.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.csproj.CoreCompileInputs.cache
@@ -63,8 +62,6 @@ C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netco
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.TagHelpers.input.cache
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.TagHelpers.output.cache
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.RazorCoreGenerate.cache
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -77,9 +74,12 @@ C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netco
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.dll
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.pdb
 C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.genruntimeconfig.cache
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Home\Buy.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Index.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Update.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Delete.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\AddHouse.cshtml.g.cs
-C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\House\Details.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\HouseStoreFront.csproj.AssemblyReference.cache
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddHouse.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Product\Update.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Storefront\Buy.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Storefront\Index.cshtml.g.cs
+C:\Users\Jerome\Desktop\Websites\HouseStoreFront\HouseStoreFront\obj\Debug\netcoreapp3.1\Razor\Views\Storefront\Privacy.cshtml.g.cs

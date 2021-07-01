@@ -22,7 +22,12 @@ namespace HouseStoreFront.Controllers
             return View(h);
         }
 
-     
+        public IActionResult Buy(int id)
+        {
+            House h = db.Houses.Find(id);
+            return View(h);
+        }
+
         public IActionResult AddHouse()
         {
             return View();
@@ -35,7 +40,7 @@ namespace HouseStoreFront.Controllers
             db.SaveChanges();
 
 
-            return RedirectToAction("Index", "House");
+            return RedirectToAction("Index", "Product");
         }
 
         public IActionResult Update(int id)
@@ -44,12 +49,28 @@ namespace HouseStoreFront.Controllers
             return View(h);
         }
 
-        public IActionResult Buy(int id)
+        [HttpPost]
+        public IActionResult Update(House h)
         {
-            House h = db.Houses.Find(id);
+            db.Houses.Update(h);
+            db.SaveChanges();
+            return RedirectToAction("Index", "Product");
+        }
+
+        public IActionResult Delete(int Id)
+        {
+            House h = db.Houses.Find(Id);
             return View(h);
         }
 
+        [HttpPost]
+        public IActionResult Delete(House h)
+        {
+
+            db.Houses.Remove(h);
+            db.SaveChanges();
+            return RedirectToAction("Index", "Product");
+        }
         public IActionResult Privacy()
         {
             return View();
