@@ -14,11 +14,18 @@ namespace HouseStoreFront.Controllers
 
     public IActionResult Index()
         {
-            List<House> houses = db.Houses.Where(x => x.Quantity ==1).ToList();
+            List<House> houses = db.Houses.ToList();
             return View(houses);
         }
 
-    public IActionResult AddHouse()
+
+        public IActionResult Details(int id)
+        {
+            House h = db.Houses.Find(id);
+            return View(h);
+        }
+
+        public IActionResult AddHouse()
         {
             return View();
         }
@@ -30,7 +37,7 @@ namespace HouseStoreFront.Controllers
             db.SaveChanges();
 
 
-            return RedirectToAction("Storefront", "Product");
+            return RedirectToAction("Index", "Product");
         }
 
         public IActionResult Update(int id)
@@ -44,7 +51,7 @@ namespace HouseStoreFront.Controllers
         {
             db.Houses.Update(h);
             db.SaveChanges();
-            return RedirectToAction("Storefront", "Product");
+            return RedirectToAction("Index", "Product");
         }
 
         public IActionResult Delete(int Id)
@@ -59,7 +66,7 @@ namespace HouseStoreFront.Controllers
            
             db.Houses.Remove(h);
             db.SaveChanges();
-            return RedirectToAction("Storefront", "Product");
+            return RedirectToAction("Index", "Product");
         }
     }
 }
